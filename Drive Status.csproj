@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Define the SDK and target framework for the project -->
+  <PropertyGroup>
+    <!-- Specify the output type as an executable -->
+    <OutputType>Exe</OutputType>
+    <!-- Target framework as net7.0-windows -->
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <!-- Use Windows Forms for the GUI -->
+    <UseWindowsForms>true</UseWindowsForms>
+    <!-- Enable implicit usings -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Specify the output type as a windows executable -->
+    <OutputType>WinExe</OutputType>
+    <!-- Specify the startup object -->
+    <StartupObject>DriveMonitor</StartupObject>
+  </PropertyGroup>
+</Project>
